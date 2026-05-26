@@ -66,5 +66,6 @@ public class Agendamento {
         System.out.println("ESPORTE: " + TipoEsporte);
         System.out.println("ID: " + id);
     }
+    //atributos privados
 
 }

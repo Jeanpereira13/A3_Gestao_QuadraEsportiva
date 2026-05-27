@@ -9,11 +9,11 @@ public class Agendamento {
     private int id;
 
     //construtor, vai receber os dados
-    public Agendamento(String nomeCliente, String dia, String horario, String esporte, int id){
+    public Agendamento(){
      this.nomeCliente = nomeCliente;
      this.dia = dia;
      this.horario = horario;
-     this.TipoEsporte = esporte;
+     this.TipoEsporte = TipoEsporte;
      this.id = id;
     }
 

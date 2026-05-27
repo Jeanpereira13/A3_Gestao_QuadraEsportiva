@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4035c60d-12cb-469a-b38b-a76b0be6c1cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ControleAgendamento/ServicodeAgendamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MenuInteração/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MenuInteração/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuInteração/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modeloEntidade/Agendamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modeloEntidade/Agendamento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +24,65 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000000003749" />
+      <entry key="S2" value="1.0020139140977644" />
+      <entry key="S5" value="1.2124337549154651" />
+      <entry key="S10" value="2.5797375023632987" />
+      <entry key="S30" value="10.867498875967023" />
+      <entry key="S60" value="20.719592833830323" />
+      <entry key="M2" value="32.640060598814564" />
+      <entry key="M5" value="46.00524225645787" />
+      <entry key="M10" value="52.33246480318924" />
+      <entry key="M15" value="54.724022338635564" />
+      <entry key="M30" value="57.275616967578216" />
+      <entry key="H1" value="58.61537079220918" />
+      <entry key="H2" value="59.30196720845032" />
+      <entry key="H4" value="59.649540211654475" />
+      <entry key="D1" value="59.94138837708947" />
+      <entry key="W1" value="59.99162195688635" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="5.2220839445992035E-186" />
+      <entry key="S2" value="4.780363945493002E-47" />
+      <entry key="S5" value="2.9633597986047817E-19" />
+      <entry key="S10" value="5.443675044126688E-10" />
+      <entry key="S30" value="8.165148057513585E-4" />
+      <entry key="S60" value="0.028574723196408303" />
+      <entry key="M2" value="0.16904059629689056" />
+      <entry key="M5" value="0.4911299357578292" />
+      <entry key="M10" value="0.700806632215926" />
+      <entry key="M15" value="0.7889790452683465" />
+      <entry key="M30" value="0.8882449241444303" />
+      <entry key="H1" value="0.9424674658280952" />
+      <entry key="H2" value="0.9708076358517654" />
+      <entry key="H4" value="0.9852957098514971" />
+      <entry key="D1" value="0.9975341336193694" />
+      <entry key="W1" value="0.9996473605295926" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9726549474122855" />
+      <entry key="MS500" value="0.9944701686769426" />
+      <entry key="S2" value="1.0006255107551363" />
+      <entry key="S5" value="1.2116615589221216" />
+      <entry key="S10" value="2.5783530037810523" />
+      <entry key="S30" value="10.865281356998073" />
+      <entry key="S60" value="20.7400347204647" />
+      <entry key="M2" value="32.79291689277805" />
+      <entry key="M5" value="46.48006839293421" />
+      <entry key="M10" value="53.022077852510996" />
+      <entry key="M15" value="55.50470054963838" />
+      <entry key="M30" value="58.15924350758437" />
+      <entry key="H1" value="59.55540204972146" />
+      <entry key="H2" value="60.271523649417745" />
+      <entry key="H4" value="60.634201878793554" />
+      <entry key="D1" value="60.938815649057524" />
+      <entry key="W1" value="60.99125402217892" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0,
   &quot;fromUser&quot;: false
@@ -36,28 +92,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Merging main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Usuario/IdeaProjects/A3-AlgoritmoeProgramacao/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Usuario/IdeaProjects/A3-AlgoritmoeProgramacao/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MenuInteração.Main" />
+      <module name="ClasseAgendamento1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MenuInteração.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4035c60d-12cb-469a-b38b-a76b0be6c1cf" name="Changes" comment="" />
@@ -65,6 +153,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1779129661235</updated>
+      <workItem from="1779904570985" duration="90000" />
+      <workItem from="1779904825721" duration="150000" />
+      <workItem from="1779905477608" duration="255000" />
+      <workItem from="1779905820933" duration="412000" />
     </task>
     <servers />
   </component>

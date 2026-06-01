@@ -11,8 +11,15 @@ public class ServicodeAgendamento {
 
     //Cadastrar(Create)
     public boolean cadastrar(Agendamento novo) {
-        //Verificação se existe um agendamento no mesmo dia e horário
+        //Verificação de ID duplicado
         for (Agendamento existente : listaAgendamento) {
+
+            //Verifica se outra pessoa possui cadastro com o ID
+            if (existente.getId() == novo.getId()){
+                return false;//O cadastro é bloqueado,pois outro usuário já utilizou esse ID no sistema
+            }
+
+            //Verifica se a quadra já está reservada no mesmo dia e horário
             if (existente.getDia().equalsIgnoreCase(novo.getDia()) &&
                 existente.getHorario().equalsIgnoreCase(novo.getHorario())) {
                 return false;//Se o dia e o horário escolhido já estiver reservado,o cadastro é barrado,retornando falso
@@ -32,13 +39,12 @@ public class ServicodeAgendamento {
 
     //Editar(Update)
 
-    @Override
     public boolean editar(int id,String  novoDia, String novoHorario, String novoEsporte) {
         //Verifica se o novo horário escolhido para a edição não vai colidir com outro agendamento existente no cadastro
         for (Agendamento a : listaAgendamento) {
             if (a.getId() != id) { //Ignora o próprio agendamento que será editado,o antigo
                 if (a.getDia().equalsIgnoreCase(novoDia) && a.getHorario().equalsIgnoreCase(novoHorario)) {
-                    return false; // Se o dia e o horário escolhidos,tiverem ocupados por ua pessoa,o processo de edição é barrado
+                    return false; // Se o dia e o horário escolhidos,tiverem ocupados por uma pessoa,o processo de edição é barrado
                 }
             }
         }

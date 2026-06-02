@@ -64,9 +64,9 @@ public class ServicodeAgendamento {
     //Excluir(Delete)
     public boolean cancelar(int id) {
         //Busca na lista quem tem o ID que solicitou a exclusão geral do cadastro,removendo da lista
-        for (Agendamento a : listaAgendamento) {
-            if (a.getId() == id) {
-                listaAgendamento.remove(a);
+        for (int i = 0; i < listaAgendamento.size(); i++) {
+            if (listaAgendamento.get(i).getId() == id) {
+                listaAgendamento.remove(i);
                 return true; // Remoção do cadastro concluída
             }
         }

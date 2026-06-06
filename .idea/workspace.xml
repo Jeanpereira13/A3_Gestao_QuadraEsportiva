@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="4035c60d-12cb-469a-b38b-a76b0be6c1cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ControleAgendamento/ServicodeAgendamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControleAgendamento/ServicodeAgendamento.java" afterDir="false" />
+=======
+    <list default="true" id="4035c60d-12cb-469a-b38b-a76b0be6c1cf" name="Changes" comment="Merge branch 'main' of https://github.com/Jeanpereira13/A3_Gestao_QuadraEsportiva&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;&#10;&quot;MENU atualizando o atualizado&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MenuInteração/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuInteração/Main.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +31,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Mayckow072&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jeanpereira13/A3_Gestao_QuadraEsportiva.git&quot;,
+    &quot;accountId&quot;: &quot;e5cb86b7-e3e1-4a85-aa0c-a2ddf0e4ea4e&quot;
+  }
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
+<<<<<<< Updated upstream
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.000000000003749" />
       <entry key="S2" value="1.0020139140977644" />
@@ -81,6 +101,63 @@
       <entry key="H4" value="60.634201878793554" />
       <entry key="D1" value="60.938815649057524" />
       <entry key="W1" value="60.99125402217892" />
+=======
+      <entry key="MS100" value="1.4785547303293445" />
+      <entry key="MS500" value="2.389848753123257" />
+      <entry key="S2" value="4.339951102886826" />
+      <entry key="S5" value="7.2237739572113" />
+      <entry key="S10" value="10.827308733490623" />
+      <entry key="S30" value="16.293281024930952" />
+      <entry key="S60" value="19.032765114169084" />
+      <entry key="M2" value="27.41648841318181" />
+      <entry key="M5" value="70.1251595717651" />
+      <entry key="M10" value="138.82144047125618" />
+      <entry key="M15" value="192.10207840574526" />
+      <entry key="M30" value="288.7996138571052" />
+      <entry key="H1" value="368.7119003599851" />
+      <entry key="H2" value="421.54184575170683" />
+      <entry key="H4" value="452.1406223082956" />
+      <entry key="D1" value="480.11339798683684" />
+      <entry key="W1" value="485.15286131024186" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="3.173906111510783E-205" />
+      <entry key="S10" value="5.633743082099824E-103" />
+      <entry key="S30" value="8.259092800257318E-35" />
+      <entry key="S60" value="9.087955105664473E-18" />
+      <entry key="M2" value="3.014623542942699E-9" />
+      <entry key="M5" value="3.9056492145524374E-4" />
+      <entry key="M10" value="0.019762715437288615" />
+      <entry key="M15" value="0.07309669562092337" />
+      <entry key="M30" value="0.2703640057791045" />
+      <entry key="H1" value="0.5199653890203694" />
+      <entry key="H2" value="0.7210862562969614" />
+      <entry key="H4" value="0.8491679788457387" />
+      <entry key="D1" value="0.9731182142711804" />
+      <entry key="W1" value="0.9961147515344618" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.3537447545308527" />
+      <entry key="MS500" value="2.30358029653687" />
+      <entry key="S2" value="4.283814914805957" />
+      <entry key="S5" value="7.188634793500395" />
+      <entry key="S10" value="10.802478661670293" />
+      <entry key="S30" value="16.281423073326057" />
+      <entry key="S60" value="19.025355297534787" />
+      <entry key="M2" value="27.407321838210034" />
+      <entry key="M5" value="70.110690925151" />
+      <entry key="M10" value="138.82555979011485" />
+      <entry key="M15" value="192.16027658097386" />
+      <entry key="M30" value="289.0580949692759" />
+      <entry key="H1" value="369.22393527394513" />
+      <entry key="H2" value="422.25827776346466" />
+      <entry key="H4" value="452.98725866850117" />
+      <entry key="D1" value="481.08606262277704" />
+      <entry key="W1" value="486.1489104438385" />
+>>>>>>> Stashed changes
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -156,11 +233,45 @@
       <workItem from="1779904570985" duration="90000" />
       <workItem from="1779904825721" duration="150000" />
       <workItem from="1779905477608" duration="255000" />
+<<<<<<< Updated upstream
       <workItem from="1779905820933" duration="412000" />
+=======
+      <workItem from="1779905820933" duration="3419000" />
+      <workItem from="1779914516411" duration="11000" />
+      <workItem from="1779914570723" duration="14000" />
+      <workItem from="1779914825470" duration="30000" />
+      <workItem from="1779915012041" duration="48000" />
+      <workItem from="1779924203504" duration="188000" />
+      <workItem from="1780074055681" duration="323000" />
+      <workItem from="1780074494096" duration="849000" />
+      <workItem from="1780517517621" duration="526000" />
+      <workItem from="1780751705685" duration="346000" />
+      <workItem from="1780752565056" duration="1030000" />
+      <workItem from="1780753691229" duration="2394000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< Updated upstream
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'main' of https://github.com/Jeanpereira13/A3_Gestao_QuadraEsportiva&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="Merge branch 'main' of https://github.com/Jeanpereira13/A3_Gestao_QuadraEsportiva&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;&#10;&quot;MENU atualizando o atualizado&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of https://github.com/Jeanpereira13/A3_Gestao_QuadraEsportiva&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;&#10;&quot;MENU atualizando o atualizado&quot;" />
+  </component>
+>>>>>>> Stashed changes
 </project>

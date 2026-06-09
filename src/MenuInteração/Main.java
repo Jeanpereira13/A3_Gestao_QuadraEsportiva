@@ -39,11 +39,31 @@ public class Main {
                     System.out.print("Digite seu nome: ");
                     novo.setNomeCliente(sc.nextLine());
 
-                    System.out.print("Informe o horário (Ex: HH:MM): ");
-                    novo.setHorario(sc.nextLine());
+                    // VALIDAÇÃO DO HORÁRIO (Limite de 1h - Apenas horas cheias)
+                    String horarioCadastro;
+                    while (true) {
+                        System.out.print("Informe o horário de início (Apenas horas cheias, Ex: 14:00): ");
+                        horarioCadastro = sc.nextLine().trim();
 
-                    System.out.print("Qual o dia (Ex: DD/MM): ");
-                    novo.setDia(sc.nextLine());
+                        // REGEX MODIFICADA: O final obrigatoriamente tem que ser ":00"
+                        if (horarioCadastro.matches("^(0[0-9]|1[0-9]|2[0-3]):00$")) {
+                            novo.setHorario(horarioCadastro);
+                            break; // Horário válido, sai do loop
+                        }
+                        System.out.println("ERRO: A quadra só pode ser reservada em blocos de 1h fechada! Digite com ':00' no final (Ex: 08:00, 14:00, 22:00).");
+                    }
+
+                    // VALIDAÇÃO DO DIA (Padrão DD/MM)
+                    String diaCadastro;
+                    while (true) {
+                        System.out.print("Qual o dia (Ex: 15/06): ");
+                        diaCadastro = sc.nextLine().trim();
+                        if (diaCadastro.matches("^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])$")) {
+                            novo.setDia(diaCadastro);
+                            break;
+                        }
+                        System.out.println("ERRO: Formato inválido! Use o padrão DD/MM com dois dígitos (Ex: 05/04, 15/06).");
+                    }
 
                     System.out.print("Qual o esporte: ");
                     novo.setTipoEsporte(sc.nextLine());
@@ -78,11 +98,27 @@ public class Main {
                     int idEditar = sc.nextInt();
                     sc.nextLine(); // Limpa buffer
 
-                    System.out.print("Digite o NOVO dia (Ex: DD/MM): ");
-                    String novoDia = sc.nextLine();
+                    // VALIDAÇÃO DO NOVO DIA NA EDIÇÃO
+                    String novoDia;
+                    while (true) {
+                        System.out.print("Digite o NOVO dia (Ex: 16/06): ");
+                        novoDia = sc.nextLine().trim();
+                        if (novoDia.matches("^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])$")) {
+                            break;
+                        }
+                        System.out.println("ERRO: Formato inválido! Use o padrão DD/MM com dois dígitos (Ex: 05/04, 16/06).");
+                    }
 
-                    System.out.print("Digite o NOVO horário (Ex: HH:MM): ");
-                    String novoHorario = sc.nextLine();
+                    // VALIDAÇÃO DO NOVO HORÁRIO NA EDIÇÃO (Travado em hora cheia)
+                    String novoHorario;
+                    while (true) {
+                        System.out.print("Digite o NOVO horário de início (Ex: 15:00): ");
+                        novoHorario = sc.nextLine().trim();
+                        if (novoHorario.matches("^(0[0-9]|1[0-9]|2[0-3]):00$")) {
+                            break;
+                        }
+                        System.out.println("ERRO: Blocos de 1h fechada apenas! Digite com ':00' no final (Ex: 09:00, 15:00).");
+                    }
 
                     System.out.print("Digite o NOVO esporte: ");
                     String novoEsporte = sc.nextLine();
